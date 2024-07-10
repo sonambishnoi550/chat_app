@@ -1,0 +1,60 @@
+:root {
+    /*-----------------------------font-size------------------------*/
+    --fs-sm: 13px;
+    --fs-md: 14px;
+    --fs-mmd: 15px;
+    --fs-2md: 16px;
+    --fs-lg: 17px;
+    --fs-llg: 18px;
+    --fs-2lg: 21px;
+    --fs-xl: 26px;
+    --fs-xxl: 25px;
+    --fs-2xl: 35px;
+}
+
+/* font size */
+.heading {
+    font-size: var(--fs-2xl);
+}
+
+.heading1 {
+    font-size: var(--fs-xxl);
+}
+
+.heading2 {
+    font-size: var(--fs-xxl);
+}
+
+.page1 {
+    font-size: var(--fs-llg);
+}
+
+.para {
+    font-size: var(--fs-2lg);
+}
+
+.bus-52 {
+    font-size: var(--fs-llg);
+}
+
+.team {
+    font-size: var(--fs-md);
+}
+
+.copy {
+    font-size: var(--fs-sm);
+}
+
+@media(min-width:768px) {
+    :root {
+        --fs-2xl: 56px;
+        --fs-xxl: 45px;
+    }
+
+}
+
+@media(min-width:992px) {
+    :root {
+        --fs-2xl: 75px;
+    }
+}
