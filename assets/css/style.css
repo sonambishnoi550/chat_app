@@ -4,9 +4,9 @@
 * {
     padding: 0;
     margin: 0;
-    text-decoration: none !important;
+    text-decoration: none;
     box-sizing: border-box;
-    list-style-type: none !important;
+    list-style-type: none;
 }
 
 .container {
@@ -106,10 +106,11 @@ header {
     line-height: 16.41px;
     text-align: center;
     cursor: pointer;
-
 }
-
-
+.py-45{
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
 
 .heading {
     font-family: 'Poppins', sans-serif;
@@ -118,11 +119,7 @@ header {
     text-align: left;
     color: #FFFFFF;
     margin-bottom: 20px;
-
-
 }
-
-
 
 .page {
     font-family: 'Roboto', sans-serif;
@@ -145,21 +142,12 @@ header {
     color: #1E71FF;
     cursor: pointer;
 }
-
-.btn2 {
-    border-radius: 60px;
-    border: 2px solid #FFFFFF;
+.btn1:hover{
     background-color: #1E71FF;
     color: #FFFFFF;
-    padding: 14px 22px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    line-height: 18.75px;
-    text-align: center;
-    cursor: pointer;
 }
 
-.gap-36 {
+.gap-25 {
     gap: 25px;
 }
 
@@ -186,7 +174,6 @@ header {
     color: #2B353EB2;
     padding-top: 30px;
     padding-bottom: 60px;
-
 }
 
 .back-color {
@@ -223,18 +210,9 @@ header {
     padding: 14px 45px;
     cursor: pointer;
 }
-
-.btn4 {
-    border-radius: 60px;
-    border: 2px solid #1E71FF;
-    background-color: #E8F1FF;
+.btn3:hover{
+    background-color: #FFFFFF;
     color: #1E71FF;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    line-height: 19.92px;
-    text-align: center;
-    padding: 14px 40px;
-    cursor: pointer;
 }
 
 .pt-30 {
@@ -247,11 +225,6 @@ header {
     line-height: 30.16px;
     text-align: left;
     color: #1E71FF;
-}
-
-.py-90 {
-    padding-top: 45px;
-    padding-bottom: 45px;
 }
 
 .fontw-200 {
@@ -288,7 +261,7 @@ header {
     margin-left: 25px;
 }
 
-.bus-52 {
+.fw-700 {
     font-weight: 700;
 }
 
@@ -335,10 +308,10 @@ footer ul li:not(:first-child) a {
     .form {
         flex-direction: column;
     }
-
-    .demo {
-        flex-direction: column;
+    .gap-sm-16{
+        gap: 16px;
     }
+
 }
 
 @media(min-width:576px) {
@@ -388,11 +361,11 @@ footer ul li:not(:first-child) a {
         padding: 14px 43px;
     }
 
-    .gap-36 {
+    .gap-lg-36 {
         gap: 36px;
     }
 
-    .py-90 {
+    .py-lg-90 {
         padding-top: 90px;
         padding-bottom: 90px;
     }
