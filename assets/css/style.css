@@ -402,6 +402,24 @@ footer ul li:not(:first-child) a {
 }
 
 @media (max-width:992px) {
+    label[for="menubar"]>span {
+            transition: all 200ms linear;
+        }
+    
+        input:checked~label[for="menubar"] span:nth-child(2) {
+            opacity: 0;
+            transform: translate(-55px);
+        }
+    
+        input:checked~label[for="menubar"] span:first-child {
+            transform: rotate(55deg);
+            transform-origin: left;
+        }
+    
+        input:checked~label[for="menubar"] span:last-child {
+            transform: rotate(-55deg);
+            transform-origin: left;
+        }
     label[for="menubar"] {
         width: 30px;
         height: 30px;
