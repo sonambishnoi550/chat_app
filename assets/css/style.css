@@ -107,7 +107,8 @@ header {
     text-align: center;
     cursor: pointer;
 }
-.py-45{
+
+.py-45 {
     padding-top: 45px;
     padding-bottom: 45px;
 }
@@ -142,7 +143,8 @@ header {
     color: #1E71FF;
     cursor: pointer;
 }
-.btn1:hover{
+
+.btn1:hover {
     background-color: #1E71FF;
     color: #FFFFFF;
 }
@@ -210,7 +212,8 @@ header {
     padding: 14px 45px;
     cursor: pointer;
 }
-.btn3:hover{
+
+.btn3:hover {
     background-color: #FFFFFF;
     color: #1E71FF;
 }
@@ -308,10 +311,10 @@ footer ul li:not(:first-child) a {
     .form {
         flex-direction: column;
     }
-    .gap-sm-16{
+
+    .gap-sm-16 {
         gap: 16px;
     }
-
 }
 
 @media(min-width:576px) {
@@ -331,7 +334,6 @@ footer ul li:not(:first-child) a {
         line-height: 66.3px;
     }
 
-
     .col-md-4 {
         width: 33.33%;
         padding-left: 12px;
@@ -349,7 +351,6 @@ footer ul li:not(:first-child) a {
         padding-left: 12px;
         padding-right: 12px;
     }
-
 }
 
 @media(min-width:992px) {
@@ -391,7 +392,6 @@ footer ul li:not(:first-child) a {
         padding-right: 12px;
     }
 
-
     .w-100 {
         width: 100%;
     }
@@ -399,7 +399,6 @@ footer ul li:not(:first-child) a {
     .heading {
         line-height: 96.3px;
     }
-
 }
 
 @media (max-width:992px) {
