@@ -32,9 +32,16 @@ header {
     width: 100%;
     background-color: #1E71FF;
 }
-
+/* --------------comman classes-------------------- */
 .d-flex {
     display: flex;
+}
+.min-vh-100 {
+    min-height: 100vh;
+}
+
+.justify-content-between {
+    justify-content: space-between;
 }
 
 .align-items-center {
@@ -44,11 +51,46 @@ header {
 .flex-column {
     flex-direction: column;
 }
-
-.bg-color {
-    background-color: #1E71FF
+.w-100 {
+    width: 100%;
 }
 
+.h-100 {
+    height: 100%;
+}
+.col-12 {
+    width: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+/* --------------comman classes end-------------------- */
+/* -----------------header----------------------- */
+
+.py-35 {
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.chat {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    line-height: 30.16px;
+    text-align: left;
+    color: #1E71FF;
+}
+.fw-200 {
+    font-weight: 200;
+}
+.link {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    line-height: 16.41px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.link:hover {
+    font-size: 16px;
+}
 .logo {
     font-family: 'Poppins', sans-serif;
     font-size: 26px;
@@ -58,43 +100,9 @@ header {
     color: #FFFFFF;
 }
 
-.fw-200 {
-    font-weight: 200;
-}
-
-.min-vh-100 {
-    min-height: 100vh;
-}
-
-.justify-content-between {
-    justify-content: space-between;
-}
-
 .gap-30 {
     gap: 30px;
 }
-
-.w-100 {
-    width: 100%;
-}
-
-.h-100 {
-    height: 100%;
-}
-
-.py-35 {
-    padding-top: 35px;
-    padding-bottom: 35px;
-}
-
-.link {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    line-height: 16.41px;
-    text-align: right;
-    color: #FFFFFF;
-}
-
 .btn {
     border-radius: 100px;
     background-color: #4B8DFF;
@@ -107,12 +115,16 @@ header {
     text-align: center;
     cursor: pointer;
 }
+/* -----------------header end----------------------- */
+/* ----------------------hero section ------------------- */
+.bg-color {
+    background-color: #1E71FF
+}
 
 .py-45 {
     padding-top: 45px;
     padding-bottom: 45px;
 }
-
 .heading {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
@@ -122,7 +134,7 @@ header {
     margin-bottom: 20px;
 }
 
-.page {
+.sub-heading {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     line-height: 24.61px;
@@ -143,23 +155,16 @@ header {
     color: #1E71FF;
     cursor: pointer;
 }
-
 .btn1:hover {
     background-color: #1E71FF;
     color: #FFFFFF;
 }
-
 .gap-25 {
     gap: 25px;
 }
-
-.col-12 {
-    width: 100%;
-    padding-left: 12px;
-    padding-right: 12px;
-}
-
-.heading1 {
+/* ----------------------hero section end------------------- */
+/* -----------------team section -------------------------- */
+.team-heading {
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     line-height: 57.78px;
@@ -168,7 +173,7 @@ header {
     padding-top: 90px;
 }
 
-.page1 {
+.team-page {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     line-height: 29.11px;
@@ -176,13 +181,36 @@ header {
     color: #2B353EB2;
     padding-top: 30px;
     padding-bottom: 60px;
+    max-width: 566px;
+    margin: auto;
 }
+/* -----------------team section -------------------------- */
+/* --------------------overflow section ---------------------- */
 
 .back-color {
     background-color: #E8F1FF;
 }
+.py-70 {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.line {
+    width: 167px;
+    height: 2px;
+    background: #CCD5E2;
+    margin-top: 90px;
+    margin-bottom: 42px;
+}
 
-.heading2 {
+.star {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 29.11px;
+    text-align: left;
+    color: #2B353EB2;
+    margin-left: 25px;
+}
+.overflow-heading {
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     line-height: 57.78px;
@@ -191,7 +219,7 @@ header {
     margin-bottom: 30px;
 }
 
-.para {
+.overflow-para {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     line-height: 33.96px;
@@ -199,7 +227,6 @@ header {
     color: #2B353EB2;
     margin-bottom: 60px;
 }
-
 .btn3 {
     border-radius: 60px;
     border: 2px solid #1E71FF;
@@ -217,22 +244,18 @@ header {
     background-color: #FFFFFF;
     color: #1E71FF;
 }
-
 .pt-30 {
     padding-top: 30px;
 }
-
-.chat {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-    line-height: 30.16px;
-    text-align: left;
-    color: #1E71FF;
+.fw-700 {
+    font-weight: 700;
 }
+/* --------------------overflow section end ---------------------- */
+/* ------------footer-------------------- */
 
-.fontw-200 {
-    font-weight: 200;
-}
+/* ------------footer end-------------------- */
+
+
 
 .team {
     font-family: 'Roboto', sans-serif;
@@ -243,35 +266,9 @@ header {
     margin-top: 18px;
 }
 
-.min-vh-50 {
-    min-height: 50vh;
-}
 
-.line {
-    width: 167px;
-    height: 2px;
-    background: #CCD5E2;
-    margin-top: 90px;
-    margin-bottom: 42px;
-}
 
-.star {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    line-height: 29.11px;
-    text-align: left;
-    color: #2B353EB2;
-    margin-left: 25px;
-}
 
-.fw-700 {
-    font-weight: 700;
-}
-
-.py-70 {
-    padding-top: 70px;
-    padding-bottom: 70px;
-}
 
 .copy {
     font-family: 'Roboto', sans-serif;

@@ -15,23 +15,31 @@
 
 
 /* font size */
+.link{
+    font-size: var(--fs-md);
+}
+.link:hover {
+    font-size:var(--fs-2md);
+}
 .heading {
     font-size: var(--fs-2xl);
 }
-
-.heading1 {
+.sub-heading{
+    font-size: var(--fs-2lg);
+}
+.team-heading {
     font-size: var(--fs-xxl);
 }
 
-.heading2 {
+.overflow-heading {
     font-size: var(--fs-xxl);
 }
 
-.page1 {
+.team-page {
     font-size: var(--fs-llg);
 }
 
-.para {
+.overflow-para {
     font-size: var(--fs-2lg);
 }
 
@@ -45,6 +53,12 @@
 
 .copy {
     font-size: var(--fs-sm);
+}
+.btn1{
+    font-size: var(--fs-2md);
+}
+.btn3{
+    font-size: var(--fs-lg);
 }
 
 @media(min-width:768px) {
