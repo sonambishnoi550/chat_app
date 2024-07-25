@@ -32,16 +32,20 @@ header {
     width: 100%;
     background-color: #1E71FF;
 }
+
 /* --------------comman classes-------------------- */
 .d-flex {
     display: flex;
 }
+
 .min-vh-100 {
     min-height: 100vh;
 }
+
 .position-relative {
     position: relative;
 }
+
 .justify-content-between {
     justify-content: space-between;
 }
@@ -53,6 +57,7 @@ header {
 .flex-column {
     flex-direction: column;
 }
+
 .w-100 {
     width: 100%;
 }
@@ -60,11 +65,13 @@ header {
 .h-100 {
     height: 100%;
 }
+
 .col-12 {
     width: 100%;
     padding-left: 12px;
     padding-right: 12px;
 }
+
 /* --------------comman classes end-------------------- */
 /* -----------------header----------------------- */
 
@@ -72,6 +79,7 @@ header {
     padding-top: 35px;
     padding-bottom: 35px;
 }
+
 .chat {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
@@ -79,9 +87,11 @@ header {
     text-align: left;
     color: #1E71FF;
 }
+
 .fw-200 {
     font-weight: 200;
 }
+
 .link {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
@@ -93,6 +103,7 @@ header {
 .link:hover {
     font-size: 16px;
 }
+
 .logo {
     font-family: 'Poppins', sans-serif;
     font-size: 26px;
@@ -105,6 +116,7 @@ header {
 .gap-30 {
     gap: 30px;
 }
+
 .btn {
     border-radius: 100px;
     background-color: #4B8DFF;
@@ -117,6 +129,7 @@ header {
     text-align: center;
     cursor: pointer;
 }
+
 /* -----------------header end----------------------- */
 /* ----------------------hero section ------------------- */
 .bg-color {
@@ -127,6 +140,7 @@ header {
     padding-top: 45px;
     padding-bottom: 45px;
 }
+
 .heading {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
@@ -157,13 +171,16 @@ header {
     color: #1E71FF;
     cursor: pointer;
 }
+
 .btn1:hover {
     background-color: #1E71FF;
     color: #FFFFFF;
 }
+
 .gap-25 {
     gap: 25px;
 }
+
 /* ----------------------hero section end------------------- */
 /* -----------------team section -------------------------- */
 .team-heading {
@@ -186,16 +203,19 @@ header {
     max-width: 566px;
     margin: auto;
 }
+
 /* -----------------team section -------------------------- */
 /* --------------------overflow section ---------------------- */
 
 .back-color {
     background-color: #E8F1FF;
 }
+
 .py-70 {
     padding-top: 70px;
     padding-bottom: 70px;
 }
+
 .line {
     width: 167px;
     height: 2px;
@@ -212,6 +232,7 @@ header {
     color: #2B353EB2;
     margin-left: 25px;
 }
+
 .overflow-heading {
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
@@ -229,6 +250,7 @@ header {
     color: #2B353EB2;
     margin-bottom: 60px;
 }
+
 .btn3 {
     border-radius: 60px;
     border: 2px solid #1E71FF;
@@ -246,12 +268,15 @@ header {
     background-color: #FFFFFF;
     color: #1E71FF;
 }
+
 .pt-30 {
     padding-top: 30px;
 }
+
 .fw-700 {
     font-weight: 700;
 }
+
 /* --------------------overflow section end ---------------------- */
 /* ------------footer-------------------- */
 .team {
@@ -271,6 +296,7 @@ header {
     color: #2B353EB2;
     margin-top: 40px;
 }
+
 footer ul li:first-child {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
@@ -289,9 +315,11 @@ footer ul li:not(:first-child) a {
     margin-bottom: 12px;
     display: inline-block;
 }
-.fw-200{
+
+.fw-200 {
     font-weight: 200;
 }
+
 /* ------------footer end-------------------- */
 
 @media(max-width:576px) {
@@ -390,23 +418,24 @@ footer ul li:not(:first-child) a {
 
 @media (max-width:992px) {
     label[for="menubar"]>span {
-            transition: all 200ms linear;
-        }
-    
-        input:checked~label[for="menubar"] span:nth-child(2) {
-            opacity: 0;
-            transform: translate(-55px);
-        }
-    
-        input:checked~label[for="menubar"] span:first-child {
-            transform: rotate(55deg);
-            transform-origin: left;
-        }
-    
-        input:checked~label[for="menubar"] span:last-child {
-            transform: rotate(-55deg);
-            transform-origin: left;
-        }
+        transition: all 200ms linear;
+    }
+
+    input:checked~label[for="menubar"] span:nth-child(2) {
+        opacity: 0;
+        transform: translate(-55px);
+    }
+
+    input:checked~label[for="menubar"] span:first-child {
+        transform: rotate(55deg);
+        transform-origin: left;
+    }
+
+    input:checked~label[for="menubar"] span:last-child {
+        transform: rotate(-55deg);
+        transform-origin: left;
+    }
+
     label[for="menubar"] {
         width: 30px;
         height: 30px;
