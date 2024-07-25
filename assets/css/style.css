@@ -289,16 +289,11 @@ footer ul li:not(:first-child) a {
     margin-bottom: 12px;
     display: inline-block;
 }
+.fw-200{
+    font-weight: 200;
+}
 /* ------------footer end-------------------- */
 
-
-
-
-
-
-/* footer */
-
-/* footer */
 @media(max-width:576px) {
     .form {
         flex-direction: column;

@@ -48,7 +48,7 @@
 }
 
 .team {
-    font-size: var(--fs-md);
+    font-size: var(--fs-mmd);
 }
 
 .copy {
@@ -60,6 +60,16 @@
 .btn3{
     font-size: var(--fs-lg);
 }
+footer ul li:first-child {
+    font-size: var(--fs-llg);
+}
+footer ul li:not(:first-child) a {
+    font-size: var(--fs-sm);
+}
+.star{
+    font-size: var(--fs-llg);
+}
+
 
 @media(min-width:768px) {
     :root {
