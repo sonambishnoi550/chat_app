@@ -39,7 +39,9 @@ header {
 .min-vh-100 {
     min-height: 100vh;
 }
-
+.position-relative {
+    position: relative;
+}
 .justify-content-between {
     justify-content: space-between;
 }
@@ -252,11 +254,6 @@ header {
 }
 /* --------------------overflow section end ---------------------- */
 /* ------------footer-------------------- */
-
-/* ------------footer end-------------------- */
-
-
-
 .team {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -266,10 +263,6 @@ header {
     margin-top: 18px;
 }
 
-
-
-
-
 .copy {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -278,12 +271,6 @@ header {
     color: #2B353EB2;
     margin-top: 40px;
 }
-
-.position-relative {
-    position: relative;
-}
-
-/* footer */
 footer ul li:first-child {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
@@ -302,6 +289,14 @@ footer ul li:not(:first-child) a {
     margin-bottom: 12px;
     display: inline-block;
 }
+/* ------------footer end-------------------- */
+
+
+
+
+
+
+/* footer */
 
 /* footer */
 @media(max-width:576px) {
